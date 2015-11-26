@@ -20,4 +20,13 @@ class NetUtil {
 		$e = array($socket);
 		return \socket_select($r, $w, $e, 5) == 1;
 	}
+	
+	
+	/**
+	 * 获取当前php服务器的主机名
+	 * @return string
+	 */
+	public static function getHostname() {
+		return php_uname('n');
+	}
 }
