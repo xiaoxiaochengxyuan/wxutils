@@ -8,7 +8,7 @@
 			"Wx\\Wxutils\\" : "src"
 		}
 	},
-	"name" : "wxutils/wxutils",
+	"name" : "wx/wxutils",
 	"description" : "util for web progrommer as phper",
 	"license" : "MIT",
 	"require" : {
