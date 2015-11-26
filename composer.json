@@ -1,0 +1,22 @@
+{
+	"keywords" : [
+		"wxutils",
+		"functions awlays use"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Wx\\Wxutils\\" : "src"
+		}
+	},
+	"name" : "wxutils/wxutils",
+	"description" : "util for web progrommer as phper",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.5"
+	},
+	"authors" : [{
+			"name" : "Xia Wei",
+			"email" : "mail.xiawei@163.com"
+		}
+	]
+}
