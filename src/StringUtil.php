@@ -61,4 +61,24 @@ class StringUtil {
 		}
 		return false;
 	}
+	
+	
+	/**
+	 * 加密一个字符串
+	 * @param string $str  要加密的字符串
+	 * @param string $salt 加密盐
+	 * @return string      加密后的字符串
+	 */
+	public static function encrypt($str, $salt = '5BAB6FAC-4283-4ebe-AE97-3CBCA9CA70B0') {
+		return \sha1($str, \md5($salt));
+	}
+	
+	/**
+	 * 获取一个utf8字符串的长度
+	 * @param string $str 要获取的字符串
+	 * @return integer    返回的字符串的长度
+	 */
+	public static function getUtf8strLen($str) {
+		return \mb_strlen($str, 'utf8');
+	}
 }
