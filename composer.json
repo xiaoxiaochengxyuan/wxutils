@@ -19,5 +19,6 @@
 			"email" : "mail.xiawei@163.com"
 		}
 	],
+	"type" : "library",
 	"minimum-stability" : "stable"
 }
