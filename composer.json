@@ -18,5 +18,6 @@
 			"name" : "Xia Wei",
 			"email" : "mail.xiawei@163.com"
 		}
-	]
+	],
+	"minimum-stability" : "stable"
 }
